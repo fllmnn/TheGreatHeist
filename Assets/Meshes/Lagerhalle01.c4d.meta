@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2a519fbeb6458b3448b4e005040e7c04
-timeCreated: 1512664344
+timeCreated: 1512669899
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -601,62 +601,62 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Crate01
-    second: {fileID: 2100000, guid: 99c075aef40c3374ebaff111927e943b, type: 2}
+    second: {fileID: 2100000, guid: 6d5a4e3bef16e0142bc68a6950cd4927, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Floor
-    second: {fileID: 2100000, guid: 816854fa59a0ae541bc8c654a0a7f301, type: 2}
+    second: {fileID: 2100000, guid: 6c06a470bbc69fd4fa587e53bdf57419, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Gate
-    second: {fileID: 2100000, guid: c0fea6a39c09c1a488ec4d5a4e2ba9c7, type: 2}
+    second: {fileID: 2100000, guid: fb214c6c75be78249aefc6f47305d961, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
-    second: {fileID: 2100000, guid: b5789de3ac0abea44999ea426de0c002, type: 2}
+    second: {fileID: 2100000, guid: 71ab6d158f016f841912c0d8e69e92ad, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof
-    second: {fileID: 2100000, guid: 8f520083cfa9f3048bb8285e4c96ef4f, type: 2}
+    second: {fileID: 2100000, guid: a1ed625eca570ae4b8efdcbfffe0e3f9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof.1
-    second: {fileID: 2100000, guid: 8f520083cfa9f3048bb8285e4c96ef4f, type: 2}
+    second: {fileID: 2100000, guid: a1ed625eca570ae4b8efdcbfffe0e3f9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roofwindow
-    second: {fileID: 2100000, guid: f18af1c33d47a7e4c81192c3124ed99c, type: 2}
+    second: {fileID: 2100000, guid: 8a337dac32acd0a4babb9cf4aa2e9f43, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wall
-    second: {fileID: 2100000, guid: 0483f90484661bd4cb5511cfeffeae8f, type: 2}
+    second: {fileID: 2100000, guid: 097bdf46b38538542b25bdfb535e7065, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wall.2
-    second: {fileID: 2100000, guid: 0483f90484661bd4cb5511cfeffeae8f, type: 2}
+    second: {fileID: 2100000, guid: 097bdf46b38538542b25bdfb535e7065, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wall.3
-    second: {fileID: 2100000, guid: 0483f90484661bd4cb5511cfeffeae8f, type: 2}
+    second: {fileID: 2100000, guid: 097bdf46b38538542b25bdfb535e7065, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Window01
-    second: {fileID: 2100000, guid: fc858963eefc20e4fae183f592623cea, type: 2}
+    second: {fileID: 2100000, guid: f85ec131d49308c4d94e6c3781d76fa7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Window02
-    second: {fileID: 2100000, guid: e58d14653267ea34da429139cadc6106, type: 2}
+    second: {fileID: 2100000, guid: de07021be3c7cd94ba87f5097f895992, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

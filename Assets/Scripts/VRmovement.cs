@@ -8,6 +8,9 @@ public class VRmovement : MonoBehaviour {
     public float toggleAngle = 30.0f;
     public float speed = 3.0f;
     private CharacterController cc;
+    public GameObject[] invetory;
+    public GameObject[] invetorySlots;
+    private int inventoryCount;
 
     public bool moveForward;
     public MovementMethod wayToMove;
@@ -21,6 +24,8 @@ public class VRmovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         cc = GetComponent<CharacterController>();
+        invetory = new GameObject[4];
+        inventoryCount = 0;
 	}
 
     public void teleport(GameObject g) {
@@ -62,4 +67,31 @@ public class VRmovement : MonoBehaviour {
             }
         }
 	}
+
+    public void PickUp(GameObject item) {
+        if (inventoryCount < invetory.Length)
+        {
+            invetory[inventoryCount] = item;
+            invetorySlots[inventoryCount].SetActive(true);
+            inventoryCount++;
+            item.SetActive(false);
+        }
+        else {
+            Debug.Log("INVENTORY FULL");
+        }
+    }
+
+    public void DropOff(GameObject car) {
+        foreach (GameObject item in invetory) {
+            item.transform.position = car.transform.position;
+            item.SetActive(true);
+        }
+        foreach (GameObject item in invetorySlots)
+        {
+            if (item.activeSelf) {
+                item.SetActive(false);
+            }
+        }
+        inventoryCount = 0;
+    }
 }

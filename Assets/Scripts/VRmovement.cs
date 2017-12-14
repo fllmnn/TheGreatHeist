@@ -84,8 +84,10 @@ public class VRmovement : MonoBehaviour {
     public void DropOff(GameObject car) {
         //Move all Objects to car
         foreach (GameObject item in invetory) {
-            item.transform.position = car.transform.position;
-            item.SetActive(true);
+            if (item != null) {
+                item.transform.position = car.transform.position;
+                item.SetActive(true);
+            }
         }
 
         //Reset Inventory in Canvas

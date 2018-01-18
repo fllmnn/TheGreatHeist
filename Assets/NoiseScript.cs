@@ -7,7 +7,7 @@ public class NoiseScript : MonoBehaviour {
 
     private float maxNoise = 1.00f;
     private float time;
-    private float noiseDroprate = 0.01f;
+    private float noiseDroprate = 0.02f;
 
     public float currentNoise;
 
@@ -38,10 +38,10 @@ public class NoiseScript : MonoBehaviour {
             time = 0f;
         }
 
-            if (Input.GetMouseButtonDown(0))
-        {
-            makeNoise(0.1f);
-        }
+       //     if (Input.GetMouseButtonDown(0))
+        //{
+         //   makeNoise(0.1f);
+        //}
 
 
 	}

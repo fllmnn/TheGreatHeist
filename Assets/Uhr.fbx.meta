@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 9c19959fc941d894eb182fa00fa097fd
+timeCreated: 1515667602
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "Deckfl\xE4che_1"
+    100002: "Deckfl\xE4che_1_2"
+    100004: "Deckfl\xE4che_2"
+    100006: "Deckfl\xE4che_2_2"
+    100008: Extrudieren
+    100010: Extrudieren_2
+    100012: Front
+    100014: Null
+    100016: Pendel
+    100018: "R\xFCckwand"
+    100020: //RootNode
+    100022: "W\xFCrfel"
+    100024: "W\xFCrfel_2"
+    100026: "W\xFCrfel_3"
+    100028: Ziffernblatt
+    100030: Zylinder_1
+    100032: Zylinder_2
+    400000: "Deckfl\xE4che_1"
+    400002: "Deckfl\xE4che_1_2"
+    400004: "Deckfl\xE4che_2"
+    400006: "Deckfl\xE4che_2_2"
+    400008: Extrudieren
+    400010: Extrudieren_2
+    400012: Front
+    400014: Null
+    400016: Pendel
+    400018: "R\xFCckwand"
+    400020: //RootNode
+    400022: "W\xFCrfel"
+    400024: "W\xFCrfel_2"
+    400026: "W\xFCrfel_3"
+    400028: Ziffernblatt
+    400030: Zylinder_1
+    400032: Zylinder_2
+    2300000: "Deckfl\xE4che_1"
+    2300002: "Deckfl\xE4che_1_2"
+    2300004: "Deckfl\xE4che_2"
+    2300006: "Deckfl\xE4che_2_2"
+    2300008: Extrudieren
+    2300010: Extrudieren_2
+    2300012: "W\xFCrfel"
+    2300014: "W\xFCrfel_2"
+    2300016: "W\xFCrfel_3"
+    2300018: Ziffernblatt
+    2300020: Zylinder_1
+    2300022: Zylinder_2
+    3300000: "Deckfl\xE4che_1"
+    3300002: "Deckfl\xE4che_1_2"
+    3300004: "Deckfl\xE4che_2"
+    3300006: "Deckfl\xE4che_2_2"
+    3300008: Extrudieren
+    3300010: Extrudieren_2
+    3300012: "W\xFCrfel"
+    3300014: "W\xFCrfel_2"
+    3300016: "W\xFCrfel_3"
+    3300018: Ziffernblatt
+    3300020: Zylinder_1
+    3300022: Zylinder_2
+    4300000: Zylinder_2
+    4300002: Zylinder_1
+    4300004: Extrudieren
+    4300006: "Deckfl\xE4che_1"
+    4300008: "Deckfl\xE4che_2"
+    4300010: "W\xFCrfel"
+    4300012: "W\xFCrfel_2"
+    4300014: "W\xFCrfel_3"
+    4300016: Extrudieren_2
+    4300018: "Deckfl\xE4che_1_2"
+    4300020: "Deckfl\xE4che_2_2"
+    4300022: Ziffernblatt
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 1b69a21664178184f9a5a666709f83de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 3210b00afdc1b3b48b2d4c7097639f7d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

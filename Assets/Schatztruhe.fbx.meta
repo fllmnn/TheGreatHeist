@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: e0828b7f86acab24c87cad33f6844877
+timeCreated: 1515667607
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Boden
+    100002: Deckel_1
+    100004: "Deckfl\xE4che_1"
+    100006: "Deckfl\xE4che_1_2"
+    100008: "Deckfl\xE4che_1_3"
+    100010: "Deckfl\xE4che_1_4"
+    100012: "Deckfl\xE4che_1_5"
+    100014: "Deckfl\xE4che_2"
+    100016: "Deckfl\xE4che_2_2"
+    100018: "Deckfl\xE4che_2_3"
+    100020: "Deckfl\xE4che_2_4"
+    100022: "Deckfl\xE4che_2_5"
+    100024: Extrudieren
+    100026: Extrudieren_1
+    100028: Extrudieren_2
+    100030: Extrudieren_2_2
+    100032: Extrudieren_2_3
+    100034: Gold
+    100036: Kiste
+    100038: Metalbeschlag
+    100040: Metalbeschlag_2
+    100042: Metalbeschlag_3
+    100044: Metalbeschlag_4
+    100046: //RootNode
+    100048: Schloss
+    100050: Wand
+    100052: Wand_2
+    100054: Wand_3
+    100056: Wand_4
+    400000: Boden
+    400002: Deckel_1
+    400004: "Deckfl\xE4che_1"
+    400006: "Deckfl\xE4che_1_2"
+    400008: "Deckfl\xE4che_1_3"
+    400010: "Deckfl\xE4che_1_4"
+    400012: "Deckfl\xE4che_1_5"
+    400014: "Deckfl\xE4che_2"
+    400016: "Deckfl\xE4che_2_2"
+    400018: "Deckfl\xE4che_2_3"
+    400020: "Deckfl\xE4che_2_4"
+    400022: "Deckfl\xE4che_2_5"
+    400024: Extrudieren
+    400026: Extrudieren_1
+    400028: Extrudieren_2
+    400030: Extrudieren_2_2
+    400032: Extrudieren_2_3
+    400034: Gold
+    400036: Kiste
+    400038: Metalbeschlag
+    400040: Metalbeschlag_2
+    400042: Metalbeschlag_3
+    400044: Metalbeschlag_4
+    400046: //RootNode
+    400048: Schloss
+    400050: Wand
+    400052: Wand_2
+    400054: Wand_3
+    400056: Wand_4
+    2300000: Boden
+    2300002: "Deckfl\xE4che_1"
+    2300004: "Deckfl\xE4che_1_2"
+    2300006: "Deckfl\xE4che_1_3"
+    2300008: "Deckfl\xE4che_1_4"
+    2300010: "Deckfl\xE4che_1_5"
+    2300012: "Deckfl\xE4che_2"
+    2300014: "Deckfl\xE4che_2_2"
+    2300016: "Deckfl\xE4che_2_3"
+    2300018: "Deckfl\xE4che_2_4"
+    2300020: "Deckfl\xE4che_2_5"
+    2300022: Extrudieren
+    2300024: Extrudieren_1
+    2300026: Extrudieren_2
+    2300028: Extrudieren_2_2
+    2300030: Extrudieren_2_3
+    2300032: Gold
+    2300034: Metalbeschlag
+    2300036: Metalbeschlag_2
+    2300038: Metalbeschlag_3
+    2300040: Metalbeschlag_4
+    2300042: Schloss
+    2300044: Wand
+    2300046: Wand_2
+    2300048: Wand_3
+    2300050: Wand_4
+    3300000: Boden
+    3300002: "Deckfl\xE4che_1"
+    3300004: "Deckfl\xE4che_1_2"
+    3300006: "Deckfl\xE4che_1_3"
+    3300008: "Deckfl\xE4che_1_4"
+    3300010: "Deckfl\xE4che_1_5"
+    3300012: "Deckfl\xE4che_2"
+    3300014: "Deckfl\xE4che_2_2"
+    3300016: "Deckfl\xE4che_2_3"
+    3300018: "Deckfl\xE4che_2_4"
+    3300020: "Deckfl\xE4che_2_5"
+    3300022: Extrudieren
+    3300024: Extrudieren_1
+    3300026: Extrudieren_2
+    3300028: Extrudieren_2_2
+    3300030: Extrudieren_2_3
+    3300032: Gold
+    3300034: Metalbeschlag
+    3300036: Metalbeschlag_2
+    3300038: Metalbeschlag_3
+    3300040: Metalbeschlag_4
+    3300042: Schloss
+    3300044: Wand
+    3300046: Wand_2
+    3300048: Wand_3
+    3300050: Wand_4
+    4300000: Extrudieren
+    4300002: "Deckfl\xE4che_1"
+    4300004: "Deckfl\xE4che_2"
+    4300006: Extrudieren_2
+    4300008: "Deckfl\xE4che_1_2"
+    4300010: "Deckfl\xE4che_2_2"
+    4300012: Extrudieren_2_2
+    4300014: "Deckfl\xE4che_1_3"
+    4300016: "Deckfl\xE4che_2_3"
+    4300018: Extrudieren_1
+    4300020: "Deckfl\xE4che_1_4"
+    4300022: "Deckfl\xE4che_2_4"
+    4300024: Extrudieren_2_3
+    4300026: "Deckfl\xE4che_1_5"
+    4300028: "Deckfl\xE4che_2_5"
+    4300030: Gold
+    4300032: Schloss
+    4300034: Metalbeschlag
+    4300036: Metalbeschlag_2
+    4300038: Metalbeschlag_3
+    4300040: Metalbeschlag_4
+    4300042: Boden
+    4300044: Wand
+    4300046: Wand_2
+    4300048: Wand_3
+    4300050: Wand_4
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Goldm\xFCnzen"
+    second: {fileID: 2100000, guid: 85058c5d959961246857469db80af8b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Holz
+    second: {fileID: 2100000, guid: b99a80c4a08bbf4438fb7a0312dc388e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.1"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.2"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.3"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.4"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.5"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.6"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.7"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.8"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Metalbeschl\xE4ge.9"
+    second: {fileID: 2100000, guid: d720a0499ee391f41b263447051b312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schloss
+    second: {fileID: 2100000, guid: 74c87d30ebebebd4eb187b902f3b2103, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

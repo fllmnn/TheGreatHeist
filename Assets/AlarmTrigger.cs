@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AlarmTrigger : MonoBehaviour {
+public class AlarmTrigger : MonoBehaviour
+{
 
-    private GvrAudioSource alarmAudio;
+    public AudioSource alarmAudioSource;
+    public AudioClip alarmClip;
     private Text alarmText;
     public bool alarmBool = false;
 
     // Use this for initialization
-    void Start () {
-        alarmAudio = GetComponent<GvrAudioSource>();
+    void Start()
+    {
+        alarmAudioSource.clip = alarmClip;
         alarmText = GetComponent<Text>();
         alarmText.enabled = false;
     }
@@ -19,8 +22,8 @@ public class AlarmTrigger : MonoBehaviour {
     public void TriggerAlarm()
     {
         alarmText.enabled = true;
-        alarmAudio.Play();
+        alarmAudioSource.Play();
     }
-	
+
 
 }

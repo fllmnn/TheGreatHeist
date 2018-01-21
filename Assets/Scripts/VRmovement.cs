@@ -80,11 +80,18 @@ public class VRmovement : MonoBehaviour {
         }
     }
 
+    public IEnumerator Wait() {
+        yield return new WaitForSecondsRealtime(8);
+
+    }
+
     public void DropOff(GameObject car) {
         //Move all Objects to car (GameObject item in invetory)
         for (int i = 0; i < invetory.Length; i++) {
             if (invetory[i] != null)
             {
+                StartCoroutine(Wait());
+
                 invetory[i].transform.position = car.transform.position;
                 invetory[i].SetActive(true);
                 invetory[i].GetComponent<EventTrigger>().enabled = false;

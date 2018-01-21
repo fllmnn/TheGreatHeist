@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ObjectsToCollect : MonoBehaviour {
 
-    public float xAmount = 1;
-
     public float noiseFactor;
     public double value = 1.99;
 
@@ -15,11 +13,5 @@ public class ObjectsToCollect : MonoBehaviour {
     //        vRmovement.PickUp(this.gameObject);
     //    }     
     //}
-
-    // Update is called once per frame
-    void Update()
-    {
-        this.transform.Rotate(xAmount, 0, 0, Space.Self);
-    }
 
 }

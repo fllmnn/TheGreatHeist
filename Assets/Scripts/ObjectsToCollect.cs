@@ -6,6 +6,9 @@ public class ObjectsToCollect : MonoBehaviour {
 
     public float xAmount = 1;
 
+    public float noiseFactor;
+    public double value = 1.99;
+
     //void OnTriggerEnter(Collider player) {
     //    if (player.gameObject.tag == "Player") {
     //        VRmovement vRmovement = player.GetComponent<VRmovement>();

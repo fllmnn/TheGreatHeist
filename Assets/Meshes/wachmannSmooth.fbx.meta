@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: dd0cea99428b8e64daf865aedb2f1b77
+timeCreated: 1516903210
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armL
+    100002: armR
+    100004: augeL
+    100006: augenbraueL
+    100008: augenbraueR
+    100010: augeR
+    100012: beinL
+    100014: beinR
+    100016: hals
+    100018: handL
+    100020: handR
+    100022: hut
+    100024: kopf
+    100026: kragen
+    100028: pCube1
+    100030: rumpf
+    100032: schnauzer
+    100034: //RootNode
+    400000: armL
+    400002: armR
+    400004: augeL
+    400006: augenbraueL
+    400008: augenbraueR
+    400010: augeR
+    400012: beinL
+    400014: beinR
+    400016: hals
+    400018: handL
+    400020: handR
+    400022: hut
+    400024: kopf
+    400026: kragen
+    400028: pCube1
+    400030: rumpf
+    400032: schnauzer
+    400034: //RootNode
+    2100000: lambert4
+    2100002: lambert2
+    2100004: lambert1
+    2100006: lambert5
+    2100008: kleidung
+    2300000: armL
+    2300002: armR
+    2300004: augeL
+    2300006: augenbraueL
+    2300008: augenbraueR
+    2300010: augeR
+    2300012: beinL
+    2300014: beinR
+    2300016: hals
+    2300018: handL
+    2300020: handR
+    2300022: hut
+    2300024: kopf
+    2300026: kragen
+    2300028: pCube1
+    2300030: rumpf
+    2300032: schnauzer
+    3300000: armL
+    3300002: armR
+    3300004: augeL
+    3300006: augenbraueL
+    3300008: augenbraueR
+    3300010: augeR
+    3300012: beinL
+    3300014: beinR
+    3300016: hals
+    3300018: handL
+    3300020: handR
+    3300022: hut
+    3300024: kopf
+    3300026: kragen
+    3300028: pCube1
+    3300030: rumpf
+    3300032: schnauzer
+    4300000: armR
+    4300002: handR
+    4300004: augeR
+    4300006: handL
+    4300008: augenbraueR
+    4300010: augenbraueL
+    4300012: pCube1
+    4300014: beinL
+    4300016: armL
+    4300018: kopf
+    4300020: hals
+    4300022: augeL
+    4300024: hut
+    4300026: rumpf
+    4300028: beinR
+    4300030: schnauzer
+    4300032: kragen
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

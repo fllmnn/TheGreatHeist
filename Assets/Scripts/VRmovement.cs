@@ -69,8 +69,10 @@ public class VRmovement : MonoBehaviour {
         {
             invetory[inventoryCount] = item;
             invetorySlots[inventoryCount].SetActive(true);
+            invetorySlots[inventoryCount].GetComponent<Image>().sprite = item.GetComponent<ObjectsToCollect>().thumbNail;
             inventoryCount++;
             item.SetActive(false);
+            
 
             Debug.Log("stop Gazin");
             gaze = false;

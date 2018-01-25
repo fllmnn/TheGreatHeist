@@ -850,7 +850,7 @@ Transform:
   m_GameObject: {fileID: 1038333371696464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6466216, y: -1.1643701, z: 7.77}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3779996, y: 0.3779996, z: 0.3779996}
   m_Children:
   - {fileID: 4755145668927746}
   - {fileID: 4104103594812890}
@@ -2012,7 +2012,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseFactor: 0
-  value: 1.99
+  moneyValue: 1.99
+  thumbNail: {fileID: 21300000, guid: 16047e97e2b811e4c9068d9c616198cd, type: 3}
+  audioClip: {fileID: 8300000, guid: 5e9e13a8d0aaab644950f8b3c619b0f5, type: 3}
 --- !u!114 &114981030670806786
 MonoBehaviour:
   m_ObjectHideFlags: 1

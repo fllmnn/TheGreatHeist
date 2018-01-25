@@ -10,32 +10,19 @@ public class MainMenuScript : MonoBehaviour {
 
     private void Start()
     {
+        //loads the highscore
         highscore.text = PlayerPrefs.GetFloat("Highscore",0.00f).ToString();
     }
 
+    //Function to reset highscore
     public void ResetHighScore() {
 
         PlayerPrefs.SetFloat("Highscore", 0.00f);
         highscore.text = PlayerPrefs.GetFloat("Highscore", 0.00f).ToString();
     }
 
+    //Starts the game by loading the game scene
     public void StartGame() {
-
-        //StartCoroutine(LoadScene());
         SceneManager.LoadSceneAsync("Storage01", LoadSceneMode.Single);
-    }
-
-    public IEnumerator LoadScene() {
-
-        yield return new WaitForEndOfFrame();
-        StartCoroutine(UnloadScene());
-        SceneManager.LoadSceneAsync("Storage01", LoadSceneMode.Single);
-        
-    }
-
-    private IEnumerator UnloadScene() {
-        yield return new WaitForEndOfFrame();
-
-        SceneManager.UnloadSceneAsync("MainMenu");
     }
 }

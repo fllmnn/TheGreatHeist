@@ -493,4 +493,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseFactor: 0
-  value: 1.99
+  moneyValue: 1.99
+  thumbNail: {fileID: 21300000, guid: 573459e5f57d75e4f8a765c4777bc598, type: 3}
+  audioClip: {fileID: 8300000, guid: 3bed424b95c73d34c9dd2e9170fdedc6, type: 3}

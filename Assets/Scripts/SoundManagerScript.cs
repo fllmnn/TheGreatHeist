@@ -10,7 +10,6 @@ public class SoundManagerScript : MonoBehaviour {
 
     //ItemSoundkram        
     public AudioSource itemSoundAudioSource;
-    private float noiseMade;
 
     public AudioClip coinClip;                  
     public AudioClip cashMoneyClip;
@@ -80,19 +79,9 @@ public class SoundManagerScript : MonoBehaviour {
 
     public void PlayItemAudio(GameObject item)      //Funktion wird in VRMovement beim aufsammeln des jeweiligen Items aufgerufen
     {                                                  //magic numbers noch deklarieren
-        if (item.name == "Coin")
-        {
-            itemSoundAudioSource.clip = coinClip;
-            noiseMade = 0.2f;
-        }
-
-        if (item.name == "CashMoney")
-        {
-            itemSoundAudioSource.clip = cashMoneyClip;
-            noiseMade = 0.1f;
-        }
+        itemSoundAudioSource.clip = item.GetComponent<ObjectsToCollect>().audioClip;
 
         itemSoundAudioSource.Play();
-        makeNoise(noiseMade);
+        makeNoise(item.GetComponent<ObjectsToCollect>().noiseFactor);
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class VRmovement : MonoBehaviour {
 
@@ -16,20 +18,21 @@ public class VRmovement : MonoBehaviour {
     private float stepTimer;
     private float stepSoundTriggerTime = 0.75f;
     public SoundManagerScript _soundManagerScript;
-    
+
+    public GameObject UIText;
+    private Text text;
+    private double Score;
+
     public bool moveForward;
 
     // Use this for initialization
     void Start() {
         cc = GetComponent<CharacterController>();
+        text = UIText.GetComponent<Text>();
         invetory = new GameObject[4];
         inventoryCount = 0;
 
         stepTimer = 0.0f;
-    }
-
-    public void teleport(GameObject g) {
-        this.transform.position = g.transform.position;
     }
 
     // Update is called once per frame
@@ -39,7 +42,6 @@ public class VRmovement : MonoBehaviour {
         if (Input.GetButton("Fire1") && !gaze)
         {
             moveForward = true;
-            Debug.Log(moveForward);
         }
         else {
             moveForward = false;
@@ -62,12 +64,10 @@ public class VRmovement : MonoBehaviour {
     }
 
     public void gazeAt() {
-        Debug.Log("Gazin");
         gaze = true;
     }
 
     public void stopGaze() {
-        Debug.Log("stop Gazin");
         gaze = false;
     }
 
@@ -77,10 +77,11 @@ public class VRmovement : MonoBehaviour {
             _soundManagerScript.PlayItemAudio(item);        //Ruft die entsprechende Methode im Soundmanager auf und übergibt das aufgenommene Item
             invetory[inventoryCount] = item;
             invetorySlots[inventoryCount].SetActive(true);
+            invetorySlots[inventoryCount].GetComponent<Image>().sprite = item.GetComponent<ObjectsToCollect>().thumbNail;
+
             inventoryCount++;
             item.SetActive(false);
 
-            Debug.Log("stop Gazin");
             gaze = false;
         }
         else {
@@ -90,9 +91,17 @@ public class VRmovement : MonoBehaviour {
 
     public void DropOff(GameObject car) {
         //Move all Objects to car
-        foreach (GameObject item in invetory) {
-            item.transform.position = car.transform.position;
-            item.SetActive(true);
+        for (int i = 0; i < invetory.Length; i++)
+        {
+            if (invetory[i] != null)
+            {
+                invetory[i].transform.position = car.transform.position + Random.insideUnitSphere * 2;
+                invetory[i].SetActive(true);
+                invetory[i].GetComponent<EventTrigger>().enabled = false;
+                Score += invetory[i].GetComponent<ObjectsToCollect>().moneyValue;
+                invetory[i] = null;
+            }
+
         }
 
         //Reset Inventory in Canvas
@@ -101,6 +110,13 @@ public class VRmovement : MonoBehaviour {
             if (item.activeSelf) {
                 item.SetActive(false);
             }
+        }
+
+        text.text = Score + " €";
+
+        if (Score > PlayerPrefs.GetFloat("Highscore", 0.00f))
+        {
+            PlayerPrefs.SetFloat("Highscore", (float)Score);
         }
 
         inventoryCount = 0;

@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ObjectsToCollect : MonoBehaviour {
 
-    public float xAmount = 1;
+    public float noiseFactor;
+    public double value = 1.99;
+    string description;
+    public Sprite thumbNail;
 
     //void OnTriggerEnter(Collider player) {
     //    if (player.gameObject.tag == "Player") {
@@ -12,11 +16,5 @@ public class ObjectsToCollect : MonoBehaviour {
     //        vRmovement.PickUp(this.gameObject);
     //    }     
     //}
-
-    // Update is called once per frame
-    void Update()
-    {
-        this.transform.Rotate(xAmount, 0, 0, Space.Self);
-    }
 
 }

@@ -94,7 +94,7 @@ public class VRmovement : MonoBehaviour {
             {
                 StartCoroutine(Wait());
 
-                invetory[i].transform.position = car.transform.position;
+                invetory[i].transform.position = car.transform.position + Random.insideUnitSphere * 2;
                 invetory[i].SetActive(true);
                 invetory[i].GetComponent<EventTrigger>().enabled = false;
                 Score += invetory[i].GetComponent<ObjectsToCollect>().value;

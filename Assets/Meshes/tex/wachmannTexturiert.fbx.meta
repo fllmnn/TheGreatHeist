@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: dd0cea99428b8e64daf865aedb2f1b77
-timeCreated: 1516903210
+guid: e512a21a142741541aadef7e1d771185
+timeCreated: 1517143479
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -41,11 +41,10 @@ ModelImporter:
     400030: rumpf
     400032: schnauzer
     400034: //RootNode
-    2100000: lambert4
+    2100000: uniform
     2100002: lambert2
-    2100004: lambert1
+    2100004: haar
     2100006: lambert5
-    2100008: kleidung
     2300000: armL
     2300002: armR
     2300004: augeL

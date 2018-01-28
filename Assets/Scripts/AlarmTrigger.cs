@@ -21,6 +21,7 @@ public class AlarmTrigger : MonoBehaviour
 
     public void TriggerAlarm()
     {
+        Time.timeScale = 0;
         alarmText.enabled = true;
         alarmAudioSource.Play();
     }

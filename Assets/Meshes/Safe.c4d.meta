@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 285b360e48bafbd4395e0fdefc006a7d
+timeCreated: 1517434767
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Boden
+    100002: Cube
+    100004: Cube_1
+    100006: Cylinder
+    100008: Cylinder_1
+    100010: Cylinder_2
+    100012: Cylinder_3
+    100014: Decke
+    100016: Griff
+    100018: Hinten
+    100020: Knubbel
+    100022: Rad
+    100024: RadGriff
+    100026: RadGriff_1
+    100028: RadGriff_2
+    100030: //RootNode
+    100032: SeiteLinks
+    100034: SeiteRechts
+    100036: "T\xFCr"
+    100038: "T\xFCr_2"
+    100040: Zwischenboden
+    400000: Boden
+    400002: Cube
+    400004: Cube_1
+    400006: Cylinder
+    400008: Cylinder_1
+    400010: Cylinder_2
+    400012: Cylinder_3
+    400014: Decke
+    400016: Griff
+    400018: Hinten
+    400020: Knubbel
+    400022: Rad
+    400024: RadGriff
+    400026: RadGriff_1
+    400028: RadGriff_2
+    400030: //RootNode
+    400032: SeiteLinks
+    400034: SeiteRechts
+    400036: "T\xFCr"
+    400038: "T\xFCr_2"
+    400040: Zwischenboden
+    2300000: Boden
+    2300002: Cube
+    2300004: Cube_1
+    2300006: Cylinder
+    2300008: Cylinder_1
+    2300010: Cylinder_2
+    2300012: Cylinder_3
+    2300014: Decke
+    2300016: Hinten
+    2300018: Knubbel
+    2300020: Rad
+    2300022: RadGriff
+    2300024: RadGriff_1
+    2300026: RadGriff_2
+    2300028: SeiteLinks
+    2300030: SeiteRechts
+    2300032: "T\xFCr_2"
+    2300034: Zwischenboden
+    3300000: Boden
+    3300002: Cube
+    3300004: Cube_1
+    3300006: Cylinder
+    3300008: Cylinder_1
+    3300010: Cylinder_2
+    3300012: Cylinder_3
+    3300014: Decke
+    3300016: Hinten
+    3300018: Knubbel
+    3300020: Rad
+    3300022: RadGriff
+    3300024: RadGriff_1
+    3300026: RadGriff_2
+    3300028: SeiteLinks
+    3300030: SeiteRechts
+    3300032: "T\xFCr_2"
+    3300034: Zwischenboden
+    4300000: Cube_1
+    4300002: Cylinder_3
+    4300004: Cube
+    4300006: Cylinder_1
+    4300008: RadGriff_2
+    4300010: RadGriff_1
+    4300012: RadGriff
+    4300014: Rad
+    4300016: Knubbel
+    4300018: "T\xFCr_2"
+    4300020: Cylinder_2
+    4300022: Cylinder
+    4300024: Hinten
+    4300026: Decke
+    4300028: SeiteRechts
+    4300030: Boden
+    4300032: SeiteLinks
+    4300034: Zwischenboden
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "SafeAu\xDFen"
+    second: {fileID: 2100000, guid: 19e1422a2c112f446b39ab4c8793f08c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SafeGriff
+    second: {fileID: 2100000, guid: edc689960f06ef34aaffd4957f7b6b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SafeKnubbel
+    second: {fileID: 2100000, guid: e9830be31fac2094c9f291d7f3a42ca3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

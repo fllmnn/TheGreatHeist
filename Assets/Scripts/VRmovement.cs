@@ -19,18 +19,18 @@ public class VRmovement : MonoBehaviour {
 
     //Fields for tracking highscore
     public GameObject UIText;
-    private Text text;
-    private double Score;
+    private Text scoreText;
+    public double Score;
 
     public bool moveForward;
 
     // Use this for initialization
     void Start() {
         cc = GetComponent<CharacterController>();
-        text = UIText.GetComponent<Text>();
+        scoreText = UIText.GetComponent<Text>();
         invetory = new GameObject[4];
         inventoryCount = 0;
-
+        Score = 0;
     }
 
     // Update is called once per frame
@@ -93,7 +93,7 @@ public class VRmovement : MonoBehaviour {
             if (invetory[i] != null)
             {
                 _soundManagerScript.PlayChaChing();
-                invetory[i].transform.position = car.transform.position + Random.insideUnitSphere * 2;      //places all items at the drop off point with a random offset
+                invetory[i].transform.position = car.transform.position + Random.insideUnitSphere * 1;      //places all items at the drop off point with a random offset
                 invetory[i].SetActive(true);
                 invetory[i].GetComponent<EventTrigger>().enabled = false;
                 Score += invetory[i].GetComponent<ObjectsToCollect>().moneyValue;
@@ -110,14 +110,9 @@ public class VRmovement : MonoBehaviour {
             }
         }
 
-        text.text = Score + " €";
-
-        //sets the new highscore if current score is bigger than the old highscore
-        if (Score > PlayerPrefs.GetFloat("Highscore", 0.00f))
-        {
-            PlayerPrefs.SetFloat("Highscore", (float)Score);
-        }
-
+        scoreText.text = Score + " €";
+        
+        PlayerPrefs.SetFloat("Score", (float)(Score));
         inventoryCount = 0;
     }
 

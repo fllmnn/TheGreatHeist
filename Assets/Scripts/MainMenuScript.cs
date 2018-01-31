@@ -7,11 +7,13 @@ using UnityEngine.SceneManagement;
 public class MainMenuScript : MonoBehaviour {
 
     public Text highscore;
+    public Text actualScore;
 
     private void Start()
     {
         //loads the highscore
-        highscore.text = PlayerPrefs.GetFloat("Highscore",0.00f).ToString();
+        highscore.text = PlayerPrefs.GetFloat("Highscore",0.00f).ToString() + " $";
+        actualScore.text = "Score: " +  PlayerPrefs.GetFloat("Score", 0.00f).ToString() + " $";
     }
 
     //Function to reset highscore

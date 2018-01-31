@@ -25,4 +25,10 @@ public class MainMenuScript : MonoBehaviour {
     public void StartGame() {
         SceneManager.LoadSceneAsync("Storage01", LoadSceneMode.Single);
     }
+
+    //Returns to main menu.
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Single);
+    }
 }

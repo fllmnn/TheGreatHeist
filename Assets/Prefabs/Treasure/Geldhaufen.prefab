@@ -229,8 +229,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1560793941520174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2318842, y: 0.025629997, z: 3.67}
-  m_LocalScale: {x: 0.30007136, y: 0.30007136, z: 0.30007136}
+  m_LocalPosition: {x: 9.66, y: -0.889, z: 18.41}
+  m_LocalScale: {x: 0.14657, y: 0.14657, z: 0.14657}
   m_Children:
   - {fileID: 4998497286157638}
   - {fileID: 4945693619161694}
@@ -744,7 +744,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 0}
-          m_MethodName: 
+          m_MethodName: PickUp
           m_Mode: 2
           m_Arguments:
             m_ObjectArgument: {fileID: 1560793941520174}
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e7b1342b71a294d8f26eea840685f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseFactor: 0
-  moneyValue: 1.99
+  noiseFactor: 0.1
+  moneyValue: 3000
   thumbNail: {fileID: 21300000, guid: dea3a9a5325d69e4fa85e5e13c96225a, type: 3}
   audioClip: {fileID: 8300000, guid: 1711052db16c4904994ee8412f67608c, type: 3}

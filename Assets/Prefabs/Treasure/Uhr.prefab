@@ -314,7 +314,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538434756584678}
   m_LocalRotation: {x: -0, y: -0.9014602, z: -0, w: 0.43286225}
-  m_LocalPosition: {x: 8.385116, y: -1.72937, z: 5.3459997}
+  m_LocalPosition: {x: 9.166, y: -1.72937, z: 9.134}
   m_LocalScale: {x: 0.33257082, y: 0.3325706, z: 0.3325709}
   m_Children:
   - {fileID: 4056881937404590}
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e7b1342b71a294d8f26eea840685f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseFactor: 0
-  moneyValue: 1.99
+  noiseFactor: 0.4
+  moneyValue: 1000
   thumbNail: {fileID: 21300000, guid: 5bb12e9700febb5428bb67806f3edc7c, type: 3}
   audioClip: {fileID: 8300000, guid: 928c1510542d2e54b8dee7b8c506833d, type: 3}

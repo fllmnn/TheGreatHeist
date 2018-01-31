@@ -45,9 +45,9 @@ public class timerScript : MonoBehaviour {
                 timeLeft = 0;
                 end = true;
                 //sets the new highscore if current score is bigger than the old highscore
-                if (player.GetComponent<VRmovement>().Score > PlayerPrefs.GetFloat("Highscore", 0.00f))
+                if (player.GetComponent<VRmovement>().finalScore > PlayerPrefs.GetFloat("Highscore", 0.00f))
                 {
-                    PlayerPrefs.SetFloat("Highscore", (float)player.GetComponent<VRmovement>().Score);
+                    PlayerPrefs.SetFloat("Highscore", (float)player.GetComponent<VRmovement>().finalScore);
                 }
                 SceneManager.LoadSceneAsync("WinningScreen", LoadSceneMode.Single);
             }

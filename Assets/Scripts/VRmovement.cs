@@ -21,6 +21,8 @@ public class VRmovement : MonoBehaviour {
     public GameObject UIText;
     private Text scoreText;
     public double Score;
+    public double finalScore;
+
 
     public bool moveForward;
 
@@ -74,7 +76,8 @@ public class VRmovement : MonoBehaviour {
             invetory[inventoryCount] = item;                //places item into Inventory
             invetoryGraphics[inventoryCount].SetActive(true);       //activates the Canvas image
             invetoryGraphics[inventoryCount].GetComponent<Image>().sprite = item.GetComponent<ObjectsToCollect>().thumbNail;       //Sets the right image in the canvas
-
+            Score += item.GetComponent<ObjectsToCollect>().moneyValue;
+            scoreText.text = Score + " $";
             inventoryCount++;
             item.SetActive(false);
 
@@ -96,11 +99,13 @@ public class VRmovement : MonoBehaviour {
                 invetory[i].transform.position = car.transform.position + Random.insideUnitSphere * 1;      //places all items at the drop off point with a random offset
                 invetory[i].SetActive(true);
                 invetory[i].GetComponent<EventTrigger>().enabled = false;
-                Score += invetory[i].GetComponent<ObjectsToCollect>().moneyValue;
                 invetory[i] = null;
             }
 
         }
+        finalScore += Score;
+        Score = 0;
+        scoreText.text = Score + " $";
 
         //Reset Inventory in Canvas
         foreach (GameObject item in invetoryGraphics)
@@ -110,9 +115,9 @@ public class VRmovement : MonoBehaviour {
             }
         }
 
-        scoreText.text = Score + " €";
         
-        PlayerPrefs.SetFloat("Score", (float)(Score));
+        
+        PlayerPrefs.SetFloat("Score", (float)(finalScore));
         inventoryCount = 0;
     }
 

@@ -2749,26 +2749,6 @@ Prefab:
     - {fileID: 9500000, guid: 3b883b70b029a5e40bcdfbf0fc69595e, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 3b883b70b029a5e40bcdfbf0fc69595e, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &638486486 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1353033789864090, guid: c0e74909171b247458e87b7f6ef46ea0,
-    type: 2}
-  m_PrefabInternal: {fileID: 1116529867}
---- !u!54 &638486490
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 638486486}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &642381550
 Prefab:
   m_ObjectHideFlags: 0
@@ -5000,33 +4980,6 @@ Prefab:
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 907292809}
-    - target: {fileID: 23644968741257318, guid: c0e74909171b247458e87b7f6ef46ea0,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100002, guid: c603a36dd0464af4cbd4a98f9e56e654, type: 3}
-    - target: {fileID: 114713891326835238, guid: c0e74909171b247458e87b7f6ef46ea0,
-        type: 2}
-      propertyPath: moneyValue
-      value: 5000
-      objectReference: {fileID: 0}
-    - target: {fileID: 4739793963502584, guid: c0e74909171b247458e87b7f6ef46ea0, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4739793963502584, guid: c0e74909171b247458e87b7f6ef46ea0, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4739793963502584, guid: c0e74909171b247458e87b7f6ef46ea0, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114713891326835238, guid: c0e74909171b247458e87b7f6ef46ea0,
-        type: 2}
-      propertyPath: noiseFactor
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0e74909171b247458e87b7f6ef46ea0, type: 2}
   m_IsPrefabParent: 0

@@ -14,9 +14,7 @@ public class VRmovement : MonoBehaviour {
     public GameObject[] invetoryGraphics;
     private int inventoryCount;
     private bool gaze = false;
-
-    private float stepTimer;
-    private float stepSoundTriggerTime = 0.75f;
+    private bool noiseReduction = false;
     public SoundManagerScript _soundManagerScript;
 
     //Fields for tracking highscore
@@ -33,7 +31,6 @@ public class VRmovement : MonoBehaviour {
         invetory = new GameObject[4];
         inventoryCount = 0;
 
-        stepTimer = 0.0f;
     }
 
     // Update is called once per frame
@@ -54,15 +51,9 @@ public class VRmovement : MonoBehaviour {
             Vector3 forward = vrCam.TransformDirection(Vector3.forward);
 
             cc.SimpleMove(forward * speed);
-
-            stepTimer += Time.deltaTime;
-            if (stepTimer >= stepSoundTriggerTime)           //Magic number noch als variable deklarieren!
-            {
-                _soundManagerScript.stepAudioSource.Play();
-                _soundManagerScript.makeNoise(noiseValue: 0.04f);
-                stepTimer = 0f;
-            }
         }
+
+        
     }
 
     //OnPointerEnter on every object to check if we are looking at something
@@ -101,6 +92,7 @@ public class VRmovement : MonoBehaviour {
         {
             if (invetory[i] != null)
             {
+                _soundManagerScript.PlayChaChing();
                 invetory[i].transform.position = car.transform.position + Random.insideUnitSphere * 2;      //places all items at the drop off point with a random offset
                 invetory[i].SetActive(true);
                 invetory[i].GetComponent<EventTrigger>().enabled = false;
@@ -127,5 +119,27 @@ public class VRmovement : MonoBehaviour {
         }
 
         inventoryCount = 0;
+    }
+
+    //Reduce noise level if you click and hold on the security guard.
+    public void ReduceNoiseAtSecurityGaze()
+    {
+        _soundManagerScript.makeNoise(-0.1f);
+        Debug.Log("sound reduzed! i bims walter");
+    }
+
+    //Sets the bool for the continous noise reduction to true.
+    public void activateNoiseReduction()
+    {
+        noiseReduction = true;
+        InvokeRepeating("ReduceNoiseAtSecurityGaze", 0.5f , 1);
+
+    }
+    //Sets the bool for the continous noise reduction to false.
+    public void deactivateNoiseReduction()
+    {
+        noiseReduction = false;
+        CancelInvoke();
+        Debug.Log("stop decrease");
     }
 }

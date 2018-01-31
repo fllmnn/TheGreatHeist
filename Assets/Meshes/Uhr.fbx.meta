@@ -22,6 +22,7 @@ ModelImporter:
     100028: Ziffernblatt
     100030: Zylinder_1
     100032: Zylinder_2
+    100034: Zylinder
     400000: "Deckfl\xE4che_1"
     400002: "Deckfl\xE4che_1_2"
     400004: "Deckfl\xE4che_2"
@@ -39,6 +40,7 @@ ModelImporter:
     400028: Ziffernblatt
     400030: Zylinder_1
     400032: Zylinder_2
+    400034: Zylinder
     2300000: "Deckfl\xE4che_1"
     2300002: "Deckfl\xE4che_1_2"
     2300004: "Deckfl\xE4che_2"
@@ -51,6 +53,7 @@ ModelImporter:
     2300018: Ziffernblatt
     2300020: Zylinder_1
     2300022: Zylinder_2
+    2300024: Zylinder
     3300000: "Deckfl\xE4che_1"
     3300002: "Deckfl\xE4che_1_2"
     3300004: "Deckfl\xE4che_2"
@@ -63,6 +66,7 @@ ModelImporter:
     3300018: Ziffernblatt
     3300020: Zylinder_1
     3300022: Zylinder_2
+    3300024: Zylinder
     4300000: Zylinder_2
     4300002: Zylinder_1
     4300004: Extrudieren
@@ -75,6 +79,7 @@ ModelImporter:
     4300018: "Deckfl\xE4che_1_2"
     4300020: "Deckfl\xE4che_2_2"
     4300022: Ziffernblatt
+    4300024: Zylinder
   externalObjects:
   - first:
       type: UnityEngine:Material

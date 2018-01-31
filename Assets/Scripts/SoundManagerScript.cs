@@ -8,8 +8,9 @@ public class SoundManagerScript : MonoBehaviour {
     public AudioSource gameMusicSource;
     public AudioClip gameMusicClip;
 
-    //ItemSoundkram        
+    //ItemSoundkram and ChaChingClip for dropoff
     public AudioSource itemSoundAudioSource;
+    public AudioClip chaChingClip;
 
     // NoiseOMeterkram...
     public GameObject blackBar;
@@ -82,6 +83,11 @@ public class SoundManagerScript : MonoBehaviour {
             blackBar.transform.localScale = new Vector3(1, 0, 1);
             //_alarmTrigger.TriggerAlarm();       //Das AlarmObject spielt den Alarmsound ab.
         }
+        if (currentNoise <= 0f)
+        {
+            currentNoise = 0f;
+            blackBar.transform.localScale = new Vector3(1, 1, 1);
+        }
         else
         {
             blackBar.transform.localScale = new Vector3(1, maxNoise - currentNoise, 1);
@@ -93,5 +99,12 @@ public class SoundManagerScript : MonoBehaviour {
         itemSoundAudioSource.clip = item.GetComponent<ObjectsToCollect>().audioClip;
         itemSoundAudioSource.Play();
         makeNoise(item.GetComponent<ObjectsToCollect>().noiseFactor);
+    }
+
+    //is called by VRMovement at ItemDropOff and uses the itemSoundSource as SoundSource
+    public void PlayChaChing()
+    {
+        itemSoundAudioSource.clip = chaChingClip;
+        itemSoundAudioSource.Play();
     }
 }

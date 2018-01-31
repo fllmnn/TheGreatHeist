@@ -801,19 +801,12 @@ MonoBehaviour:
   gameMusicSource: {fileID: 362845255}
   gameMusicClip: {fileID: 8300000, guid: 7b91acb92a777174fa2c62edd59a3647, type: 3}
   itemSoundAudioSource: {fileID: 362845254}
-  coinClip: {fileID: 8300000, guid: 1711052db16c4904994ee8412f67608c, type: 3}
-  cashMoneyClip: {fileID: 8300000, guid: 1711052db16c4904994ee8412f67608c, type: 3}
-  "gem\xE4ldeClip": {fileID: 8300000, guid: 3bed424b95c73d34c9dd2e9170fdedc6, type: 3}
-  gemClip: {fileID: 8300000, guid: daeaa77ecd2da0f4e8f922539357f622, type: 3}
-  goldbarrenClip: {fileID: 8300000, guid: 042319bbf41ecec4a9a622d3ea25ef55, type: 3}
-  klopapierClip: {fileID: 8300000, guid: da05e3c4c9464f9458ca04496262b2a0, type: 3}
-  truheClip: {fileID: 8300000, guid: 5e9e13a8d0aaab644950f8b3c619b0f5, type: 3}
-  uhrClip: {fileID: 8300000, guid: 928c1510542d2e54b8dee7b8c506833d, type: 3}
   blackBar: {fileID: 837115865}
   currentNoise: 0
   _alarmTrigger: {fileID: 1696594657}
   stepAudioSource: {fileID: 362845252}
   stepClip: {fileID: 8300000, guid: 8275473b558c9af468d4f2d7d97b27b0, type: 3}
+  _VRmovementScript: {fileID: 907292809}
 --- !u!82 &362845252
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2317,7 +2310,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 837115865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -337.16, y: 29.600006, z: 0}
+  m_LocalPosition: {x: -337.16, y: -123.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1365910018}
@@ -2325,7 +2318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -337.16, y: -230.9}
+  m_AnchoredPosition: {x: -337.16, y: -443}
   m_SizeDelta: {x: 28, y: 145}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &837115868
@@ -3769,7 +3762,7 @@ RectTransform:
   m_GameObject: {fileID: 1365910014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.632, z: -12.155}
-  m_LocalScale: {x: 0.00022163158, y: 0.00022163158, z: 0.00022163158}
+  m_LocalScale: {x: 0.0001807043, y: 0.0001807043, z: 0.0001807043}
   m_Children:
   - {fileID: 1696594655}
   - {fileID: 1710899791}
@@ -5348,7 +5341,7 @@ RectTransform:
   m_GameObject: {fileID: 2029144357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.632, z: -12.155}
-  m_LocalScale: {x: 0.00022163158, y: 0.00022163158, z: 0.00022163158}
+  m_LocalScale: {x: 0.0001807043, y: 0.0001807043, z: 0.0001807043}
   m_Children:
   - {fileID: 112086292}
   - {fileID: 1994355158}

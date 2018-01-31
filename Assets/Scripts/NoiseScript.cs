@@ -18,7 +18,6 @@ public class NoiseScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         currentNoise = 0.00f;
-        //AlarmText.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -37,13 +36,7 @@ public class NoiseScript : MonoBehaviour {
             transform.localScale = new Vector3(1, (currentNoise / maxNoise), 1);
             time = 0f;
         }
-
-       //     if (Input.GetMouseButtonDown(0))
-        //{
-         //   makeNoise(0.1f);
-        //}
-
-
+        
 	}
 
 

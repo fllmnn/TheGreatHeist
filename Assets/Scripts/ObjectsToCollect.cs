@@ -1,8 +1,8 @@
-﻿using System.Collections;
+﻿//Author: Marcel Trattner
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class ObjectsToCollect : MonoBehaviour {
 
     //All the information an object has to hold

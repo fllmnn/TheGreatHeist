@@ -1,10 +1,10 @@
-﻿using System.Collections;
+﻿//Author: Graciel Fellmann
+//Tutorial source: https://www.youtube.com/watch?v=x-C95TuQtf0
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-//https://www.youtube.com/watch?v=x-C95TuQtf0
 
 public class timerScript : MonoBehaviour {
 
@@ -30,8 +30,15 @@ public class timerScript : MonoBehaviour {
 
             string min = ((int)timeLeft / 60).ToString();
             string sec = (timeLeft % 60).ToString("f1");
-
             countdownText.text = min + ":" + sec;
+            if(timeLeft < 60)
+            {
+                countdownText.color = Color.yellow;
+            }
+            if(timeLeft < 30)
+            {
+                countdownText.color = Color.red;
+            }
         }
         else { return; }
     }

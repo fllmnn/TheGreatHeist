@@ -80,7 +80,7 @@ public class SoundManagerScript : MonoBehaviour {
         {
             currentNoise = maxNoise;
             blackBar.transform.localScale = new Vector3(1, 0, 1);
-            _alarmTrigger.TriggerAlarm();       //Das AlarmObject spielt den Alarmsound ab.
+            //_alarmTrigger.TriggerAlarm();       //Das AlarmObject spielt den Alarmsound ab.
         }
         else
         {

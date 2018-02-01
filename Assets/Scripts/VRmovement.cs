@@ -132,7 +132,8 @@ public class VRmovement : MonoBehaviour {
     public void activateNoiseReduction()
     {
         noiseReduction = true;
-        InvokeRepeating("ReduceNoiseAtSecurityGaze", 0.5f , 1);
+        InvokeRepeating("ReduceNoiseAtSecurityGaze", 0.5f, 1);
+        _soundManagerScript.PlayLullaby();
 
     }
     //Sets the bool for the continous noise reduction to false.
@@ -140,6 +141,7 @@ public class VRmovement : MonoBehaviour {
     {
         noiseReduction = false;
         CancelInvoke();
+        _soundManagerScript.StopLullaby();
         Debug.Log("stop decrease");
     }
 }

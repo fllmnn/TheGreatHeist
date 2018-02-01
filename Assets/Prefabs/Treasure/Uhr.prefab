@@ -154,6 +154,7 @@ GameObject:
   - component: {fileID: 65481214513467324}
   - component: {fileID: 114066747372750142}
   - component: {fileID: 114016641576704788}
+  - component: {fileID: 54319465431837320}
   m_Layer: 0
   m_Name: Uhr
   m_TagString: Untagged
@@ -313,9 +314,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538434756584678}
-  m_LocalRotation: {x: -0, y: -0.9014602, z: -0, w: 0.43286225}
-  m_LocalPosition: {x: 9.166, y: -1.72937, z: 9.134}
-  m_LocalScale: {x: 0.33257082, y: 0.3325706, z: 0.3325709}
+  m_LocalRotation: {x: 0.027368272, y: -0.4743334, z: -0.050685637, w: 0.87845874}
+  m_LocalPosition: {x: -1.522, y: -0.639, z: 10.127}
+  m_LocalScale: {x: 0.33257028, y: 0.33257, z: 0.33257028}
   m_Children:
   - {fileID: 4056881937404590}
   - {fileID: 4947479083336188}
@@ -323,7 +324,7 @@ Transform:
   - {fileID: 4955011745440654}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -128.701, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -56.735004, z: -6.604}
 --- !u!4 &4165458159010560
 Transform:
   m_ObjectHideFlags: 1
@@ -1022,6 +1023,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1199839020068904}
   m_Mesh: {fileID: 4300006, guid: 9c19959fc941d894eb182fa00fa097fd, type: 3}
+--- !u!54 &54319465431837320
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538434756584678}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &65481214513467324
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1032,8 +1048,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5353602, y: 2.6069195, z: 1.6832806}
-  m_Center: {x: -0.1243727, y: 0.8034595, z: 0.04223271}
+  m_Size: {x: 0.5353602, y: 2.7771034, z: 1.6832806}
+  m_Center: {x: -0.12437268, y: 0.7183683, z: 0.042232756}
 --- !u!114 &114016641576704788
 MonoBehaviour:
   m_ObjectHideFlags: 1

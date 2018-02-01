@@ -711,6 +711,8 @@ MonoBehaviour:
   invetoryGraphics: []
   _soundManagerScript: {fileID: 0}
   UIText: {fileID: 0}
+  Score: 0
+  finalScore: 0
   moveForward: 0
 --- !u!143 &907292810
 CharacterController:
@@ -738,7 +740,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cd93617b2e720c64eac8b728c130af83, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b6afbc63aded4dd4c96ba10acf6c5964, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

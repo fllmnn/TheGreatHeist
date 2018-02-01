@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 22f920ea9da4a404cbd8a6899d8aebeb
-timeCreated: 1517442435
+guid: 752a926888cf6e543b628be2c5c1ee12
+timeCreated: 1517445007
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: kennzeichen
-    100002: kofferraum
-    100004: pCube1
-    100006: pCube2
-    100008: pCube3
+    100002: kennzeichen1
+    100004: kofferraum
+    100006: pCube1
+    100008: pCube2
     100010: ruecklicht1
     100012: ruecklicht2
     100014: schwarz1
@@ -22,10 +22,10 @@ ModelImporter:
     100028: transform7
     100030: //RootNode
     400000: kennzeichen
-    400002: kofferraum
-    400004: pCube1
-    400006: pCube2
-    400008: pCube3
+    400002: kennzeichen1
+    400004: kofferraum
+    400006: pCube1
+    400008: pCube2
     400010: ruecklicht1
     400012: ruecklicht2
     400014: schwarz1
@@ -37,9 +37,9 @@ ModelImporter:
     400026: transform6
     400028: transform7
     400030: //RootNode
-    2300000: pCube3
-    3300000: pCube3
-    4300000: pCube3
+    2300000: kennzeichen1
+    3300000: kennzeichen1
+    4300000: kennzeichen1
     9500000: //RootNode
   externalObjects:
   - first:
@@ -61,7 +61,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: kennzeichenTex
-    second: {fileID: 2100000, guid: e64ae8bdd9d9fae4aa3d97ba5339f24d, type: 2}
+    second: {fileID: 2100000, guid: f4ee680e4a772ee4298899346aff11e1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

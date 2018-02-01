@@ -7,7 +7,7 @@ public class NoiseScript : MonoBehaviour {
 
     private float maxNoise = 1.00f;
     private float time;
-    private float noiseDroprate = 0.02f;
+    private float noiseDroprate = 0.08f;
 
     public float currentNoise;
 

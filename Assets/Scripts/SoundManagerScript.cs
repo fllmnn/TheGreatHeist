@@ -2,22 +2,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class SoundManagerScript : MonoBehaviour {
 
     //GameMusic
     public AudioSource gameMusicSource;
     public AudioClip gameMusicClip;
 
-    //ItemSoundkram and ChaChingClip for dropoff
+    //ItemSoundkram, ChaChingClip for dropoff, lullaby and walter the guard
     public AudioSource itemSoundAudioSource;
     public AudioClip chaChingClip;
+    public AudioClip lullabyClip;
+
+    public AudioSource waltersAudioSource;  //walter holds his own audiosource, cause it´s a 3D one.
+    public AudioClip schnarchClip;
 
     // NoiseOMeterkram...
     public GameObject blackBar;
     private float maxNoise = 1.00f;            
     private float noiseOMeterTime;
     private float noiseOMeterDroprateTriggerTime = 1.0f;
-    private float noiseDroprate = 0.02f;
+    private float noiseDroprate = 0.1f;
     public float currentNoise;
     public AlarmTrigger _alarmTrigger;
 
@@ -34,7 +40,12 @@ public class SoundManagerScript : MonoBehaviour {
         stepAudioSource.clip = stepClip;
 
         gameMusicSource.clip = gameMusicClip;
+        gameMusicSource.loop = true;
         gameMusicSource.Play();
+
+        waltersAudioSource.clip = schnarchClip;
+        waltersAudioSource.loop = true;
+        waltersAudioSource.Play();
     }
 	
 	// Update is called once per frame
@@ -81,7 +92,9 @@ public class SoundManagerScript : MonoBehaviour {
         {
             currentNoise = maxNoise;
             blackBar.transform.localScale = new Vector3(1, 0, 1);
-            //_alarmTrigger.TriggerAlarm();       //Das AlarmObject spielt den Alarmsound ab.
+            _alarmTrigger.TriggerAlarm();       //Das AlarmObject spielt den Alarmsound ab.
+            waltersAudioSource.Stop();
+            Invoke("loadLosingScreen", 4);
         }
         if (currentNoise <= 0f)
         {
@@ -106,5 +119,24 @@ public class SoundManagerScript : MonoBehaviour {
     {
         itemSoundAudioSource.clip = chaChingClip;
         itemSoundAudioSource.Play();
+    }
+
+    //plays the lullaby when the guard is stared on. gets called by VRMovement
+    public void PlayLullaby()
+    {
+        itemSoundAudioSource.clip = lullabyClip;
+        itemSoundAudioSource.Play();
+    }
+
+    //stops the lullaby when looking at guard is stopped because the clip is quite long. Gets called by VRMovement
+    public void StopLullaby()
+    {
+        itemSoundAudioSource.Stop();
+    }
+
+    //Loads the losing screen.
+    public void loadLosingScreen()
+    {
+        SceneManager.LoadSceneAsync("LosingScreen", LoadSceneMode.Single);
     }
 }

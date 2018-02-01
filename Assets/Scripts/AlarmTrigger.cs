@@ -16,12 +16,10 @@ public class AlarmTrigger : MonoBehaviour
     {
         alarmAudioSource.clip = alarmClip;
         alarmText = GetComponent<Text>();
-        alarmText.enabled = false;
     }
 
     public void TriggerAlarm()
     {
-        alarmText.enabled = true;
         alarmAudioSource.Play();
     }
 

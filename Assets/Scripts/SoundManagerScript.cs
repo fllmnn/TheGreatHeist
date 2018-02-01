@@ -94,7 +94,7 @@ public class SoundManagerScript : MonoBehaviour {
             blackBar.transform.localScale = new Vector3(1, 0, 1);
             _alarmTrigger.TriggerAlarm();       //Das AlarmObject spielt den Alarmsound ab.
             waltersAudioSource.Stop();
-            Invoke("loadLosingScreen", 4);
+            Invoke("loadLosingScreen", 3);
         }
         if (currentNoise <= 0f)
         {

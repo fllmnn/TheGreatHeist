@@ -8,7 +8,7 @@ public class VRmovement : MonoBehaviour {
 
     //Fields for movement and inventory
     public Transform vrCam;
-    public float speed = 3.0f;
+    public float speed = 2f;
     private CharacterController cc;
     public GameObject[] invetory;
     public GameObject[] invetoryGraphics;

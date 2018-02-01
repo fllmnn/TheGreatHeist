@@ -23,7 +23,7 @@ public class SoundManagerScript : MonoBehaviour {
     private float maxNoise = 1.00f;            
     private float noiseOMeterTime;
     private float noiseOMeterDroprateTriggerTime = 1.0f;
-    private float noiseDroprate = 0.1f;
+    private float noiseDroprate = 0.06f;
     public float currentNoise;
     public AlarmTrigger _alarmTrigger;
 
